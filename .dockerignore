@@ -1,0 +1,8 @@
+.git
+.venv
+__pycache__
+data
+*.mp4
+*.mov
+*.mkv
+.env
