@@ -1,0 +1,8 @@
+Flask>=3.0,<4
+gunicorn>=22,<24
+Werkzeug>=3.0,<4
+faster-whisper>=1.0,<2
+google-api-python-client>=2.130,<3
+google-auth>=2.30,<3
+google-auth-httplib2>=0.2,<1
+google-auth-oauthlib>=1.2,<2
