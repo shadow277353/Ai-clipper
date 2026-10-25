@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: auto-clipper
+    runtime: docker
+    plan: starter
+    healthCheckPath: /
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATA_DIR
+        value: /data
+      - key: MAX_UPLOAD_MB
+        value: "800"
+    disk:
+      name: auto-clipper-data
+      mountPath: /data
+      sizeGB: 10
